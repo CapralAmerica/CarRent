@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+
+
+.wrapper {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 50%;
+
+ }
+
+.content {
+
+    min-height: 620px;
+    position: relative;
+
+}
+
+.footer {
+    height: 30%;
+    width: 100%;
+
+}
+
+
+.jumbotron {
+    background-color: #222222;
+     min-height: 250px;
+}
+
+.phonenumber-header {
+    margin-top: 20px;
+    color: #e7e7e7;
+}
+
+.models {
+    margin: 75px;
+    height: 50%;
+}
+
+#price_form {
+    height: 150px;
+    left: 50px;
+    position: absolute;
+}
+
+h3 {
+    font-family: 'Slabo';
+}
+.days_amount {
+    margin: 25px;
+}
+
+.total_price {
+    margin: 25px;
+}
+
+.switch-transition {
+    transition: all .5s ease-in-out;
+}
+
+.switch-enter {
+    left: 100%;
+}
+
+.switch-leave {
+    left: -100%;
+}
